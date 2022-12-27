@@ -10,7 +10,7 @@
     android:layout_height="wrap_content"
     android:id="@+id/main_container"
     android:paddingBottom="15dp"
-    android:layout_margin="10dp"
+    android:layout_margin="9dp"
     android:paddingEnd="10dp"></androidx.recyclerview.widget.RecyclerView>
 
 </LinearLayout>
