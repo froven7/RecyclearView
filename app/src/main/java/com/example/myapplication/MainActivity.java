@@ -49,7 +49,12 @@ FloatingActionButton fab;
         recyclerView.setLayoutManager(new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL));
         PhotosAdapter adapter=new PhotosAdapter(mList);
         recyclerView.setAdapter(adapter);
-
+fab.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        startActivity(new Intent(MainActivity.this,CameraActivity.class));
+    }
+});
 
     }
 }

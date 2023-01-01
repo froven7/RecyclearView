@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="galeriya">Galeriya</string>
+    <string name="video">Video</string>
 </resources>
